@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-twitter-hashtag",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Plugin that turns twitter hashtags into search links",
   "main": "index.js",
   "scripts": {
