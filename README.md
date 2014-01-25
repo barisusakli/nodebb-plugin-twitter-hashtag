@@ -1,11 +1,11 @@
-# NodeBB Link Checker
+# NodeBB Twitter Hashtag
 
-Checks if links in posts are still alive. It puts a broken chain icon next to the link if it is broken.
+Converts twitter hashtags into twitter search links
 
 ## Installation
 
-    npm install nodebb-plugin-linkcheck
+    npm install nodebb-plugin-twitter-hashtag
 
-![](http://i.imgur.com/Nt9N1Zo.png)
+
 
 
