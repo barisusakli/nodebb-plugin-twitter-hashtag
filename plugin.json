@@ -4,11 +4,8 @@
     "description": "A Plugin that turns twitter hashtags into search links",
     "url": "https://github.com/barisusakli/nodebb-plugin-twitter-hashtag",
     "library": "./index.js",
-    "staticDir": "./static",
-    "css": [
-        "style.css"
-    ],
     "hooks": [
         { "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 }
-    ]
+    ],
+    "minver": "0.4.0"
 }

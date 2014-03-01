@@ -5,7 +5,7 @@
 
 
 	module.parse = function(postContent, callback) {
-		var regex = /\S*#(?:\[[^\]]+\]|\S+[^<\/p> ])/g;
+		var regex = /\S*#(?:\[[^\]]+\]|\S+)/g;
 
 		var matches = postContent.match(regex);
 		if(!matches || !matches.length) {
