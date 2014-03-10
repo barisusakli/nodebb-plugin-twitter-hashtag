@@ -1,9 +1,6 @@
-
+'use strict';
 
 (function(module) {
-	"use strict";
-
-
 	module.parse = function(postContent, callback) {
 		var regex = /\S*#(?:\[[^\]]+\]|\S+)/g;
 
@@ -18,9 +15,7 @@
 				match + '</a>');
 		}
 
-		return callback(null, postContent);
-	}
-
-
+		callback(null, postContent);
+	};
 }(module.exports));
 
