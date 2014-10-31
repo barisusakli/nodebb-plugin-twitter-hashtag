@@ -2,7 +2,7 @@
 
 (function(module) {
 	module.parse = function(postContent, callback) {
-		var regex = /\S*#(?:\[[^\]]+\]|\S+)/g;
+		var regex = /(?:\s|^)(?:#(?!\d+(?:\s|$)))(\w+)(?=\s|$)/gi;
 
 		var matches = postContent.match(regex);
 		if(!matches || !matches.length) {
