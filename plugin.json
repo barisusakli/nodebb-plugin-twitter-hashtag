@@ -6,6 +6,5 @@
     "library": "./index.js",
     "hooks": [
         { "hook": "filter:post.parse", "method": "parse", "priority": 6 }
-    ],
-    "minver": "0.4.0"
+    ]
 }
